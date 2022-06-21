@@ -35,8 +35,9 @@ public class CreatingOrganisationWithShippingAddresTest extends BaseClass{
  
 	 @Test(groups = {"regressionTest"})
 	 public void  CreatingOrganisationWithShippingAddresTest(){
-
+                 //Create Object of Excel Utility
 		ExcelUtility elib = new ExcelUtility();
+		 //Create Object of Java Utility
 		JavaUtility jlib = new JavaUtility();
 	
 			//fetch data from excel
