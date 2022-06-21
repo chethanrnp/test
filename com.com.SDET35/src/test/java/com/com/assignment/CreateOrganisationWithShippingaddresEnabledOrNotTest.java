@@ -42,7 +42,7 @@ public class CreateOrganisationWithShippingaddresEnabledOrNotTest extends BaseCl
 			
 		
 			
-			//click on Organisation
+			//click on Organisation on homePage 
 			Homepage home=new Homepage(driver);
 			home.clickOrganisation();
 		//	Assert.fail();
