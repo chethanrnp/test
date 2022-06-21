@@ -37,7 +37,7 @@ public class CreateOrganisationWithShippingaddresEnabledOrNotTest extends BaseCl
 		 
 		JavaUtility jLib=new JavaUtility();
 			
-			//fetching data from excel
+			//fetching data from exce
 			String orgName = eLib.getDataFromExcelSheet(IPathConstants.excelPath, "Organisation", 1, 7)+jLib.getRandomNumber();
 			
 		
