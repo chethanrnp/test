@@ -38,7 +38,7 @@ public class CreatingNewOrganizationCheckNotifyOnerSelectedTest extends BaseClas
 			ExcelUtility elib=new ExcelUtility();
 			JavaUtility jlib=new JavaUtility();
 	
-		//get data from excel sheet	
+		//get data from excel sheet usinf apache poi
 			String orgName = elib.getDataFromExcelSheet(".\\src\\test\\resources\\FLIPKART.xlsx", "Organisation", 1, 2)+jlib.getRandomNumber();
 	
 		//click on organisation
