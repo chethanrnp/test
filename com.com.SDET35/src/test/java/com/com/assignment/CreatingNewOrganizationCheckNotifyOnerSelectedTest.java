@@ -41,10 +41,10 @@ public class CreatingNewOrganizationCheckNotifyOnerSelectedTest extends BaseClas
 		//get data from excel sheet using apache poi repositry 
 			String orgName = elib.getDataFromExcelSheet(".\\src\\test\\resources\\FLIPKART.xlsx", "Organisation", 1, 2)+jlib.getRandomNumber();
 	
-		//click on organisation
+		//click on organisation 
 		Homepage home=new Homepage(driver);
 		home.clickOrganisation();
-		//click on create organization
+		//click on create organization and create Organisation
 		CreateOrganisationPage creORG=new CreateOrganisationPage(driver);
 		creORG.clickCreateOrganization();
 		OrganisationPage org=new OrganisationPage(driver);
