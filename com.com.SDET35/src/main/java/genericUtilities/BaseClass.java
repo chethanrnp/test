@@ -36,10 +36,10 @@ public class BaseClass {
 	 @BeforeClass(groups = {"SmokeTest","regressionTest"})
 	 public void launchTheBrowser() {
 		 //fetches the data from property file 
-		 String Browser = fLib.getPropertyKeyValue(IPathConstants.filePath,"browser" );
-		 String url = fLib.getPropertyKeyValue(IPathConstants.filePath, "url");
-	// String Browser=System.getProperty("browser");
-		// String url=System.getProperty("url");
+	//	 String Browser = fLib.getPropertyKeyValue(IPathConstants.filePath,"browser" );
+	//	 String url = fLib.getPropertyKeyValue(IPathConstants.filePath, "url");
+	 String Browser=System.getProperty("browser");
+	 String url=System.getProperty("url");
 		 //launches the browser
 		 if(Browser.equalsIgnoreCase("chrome")) {
 			 WebDriverManager.chromedriver().setup();
